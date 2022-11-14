@@ -1,0 +1,49 @@
+[23320:27284:2022-10-6 9:6:59.145] Main Start
+[23320:27284:2022-10-6 9:6:59.145] Command line:"C:\Users\alegr\Documents\UTN Programador Web\M2U4\startbootstrap-stylish-portfolio-gh-pages\startbootstrap-stylish-portfolio-gh-pages\assets\img\Zoom_cm_fikfwuvbkk8ksuf5fxZ9vvrZo4_mnjL5j7eCK2udwA6ImTA8ocHW4MMAbDLsE5Du@glAsxf4HVezN+kkW_k945.exe"  Instance:0x70000 Show State:1
+[23320:27284:2022-10-6 9:6:59.228] C:\
+[23320:9528:2022-10-6 9:6:59.237] [process_requst] start, url:https://centrodeelearning.zoom.us/conf/launch
+[23320:9528:2022-10-6 9:7:1.652] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[23320:9528:2022-10-6 9:7:1.653] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[23320:9528:2022-10-6 9:7:1.653] [log_response_content] Content length (1048576 as unknown):1293 , Total read: 1293 , Error No: 0 , Status code: 200
+[23320:9528:2022-10-6 9:7:1.653] [log_response_content] header:
+[23320:9528:2022-10-6 9:7:1.654] HTTP/1.1 200 
+Date: Thu, 06 Oct 2022 12:07:01 GMT
+Content-Type: text/plain;charset=utf-8
+Content-Length: 1293
+Connection: keep-alive
+x-zm-trackingid: v=2.0;clid=aw1;rid=WEB_c305e2cdfb56d0e6f1a10507e3836b4e
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: data: 'self'; object-src 'none'; base-uri 'none';
+X-FRAME-OPTIONS: SAMEORIGIN
+Set-Cookie: zm_aid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_haid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_tmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_htmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: cred=5BDFA9818220514DDBEFB80F7116F62D; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_page_auth=aw1_c_OEV-xeLiRlKFPIFz0DNKaA; Domain=.zoom.us; Path=/; Secure; HttpOnly
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTR STP IND DEM"
+Set-Cookie: _zm_ssid=aw1_c_7DmDxtePTDqvGmZvXAqqjA; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ctaid=q-R178BxSpufoh0TZx42Wg.1665058021540.64adbdc1c485e9bc9fe2cec394177f4b; Domain=.zoom.us; Expires=Thu, 06-Oct-2022 14:07:01 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_chtaid=337; Domain=.zoom.us; Expires=Thu, 06-Oct-2022 14:07:01 GMT; Path=/; Secure; HttpOnly
+x-zm-zoneid: OH1
+Set-Cookie: _zm_mtk_guid=e09ab979a50a47e587f16bc90a263aab; Domain=.zoom.us; Expires=Sat, 05-Oct-2024 12:07:01 GMT; Path=/; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+
+
+[23320:9528:2022-10-6 9:7:1.654] [process_requst] End for url:https://centrodeelearning.zoom.us/conf/launch, return code:200, Error:0, Response content size:1293
+[23320:27284:2022-10-6 9:7:1.676] [imp_has_zoom_under_path] found zoom binaries under: 
+[23320:27284:2022-10-6 9:7:1.676] C:\Users\alegr\AppData\Roaming\Zoom\bin\Zoom.exe
+[23320:27284:2022-10-6 9:7:1.676] [client_has_installed_app] found path:
+[23320:27284:2022-10-6 9:7:1.676] C:\Users\alegr\AppData\Roaming\Zoom\bin\Zoom.exe
+[23320:27284:2022-10-6 9:7:1.677] [imp_has_zoom_under_path] found zoom binaries under: 
+[23320:27284:2022-10-6 9:7:1.678] C:\Users\alegr\AppData\Roaming\Zoom\bin\Zoom.exe
+[23320:27284:2022-10-6 9:7:1.678] [client_has_installed_app] found path:
+[23320:27284:2022-10-6 9:7:1.678] C:\Users\alegr\AppData\Roaming\Zoom\bin\Zoom.exe
+[23320:27284:2022-10-6 9:7:1.678] C:\Users\alegr\AppData\Roaming\Zoom\bin\Zoom.exe
+[23320:27284:2022-10-6 9:7:1.810] client_launch_app: 
+[23320:27284:2022-10-6 9:7:1.810] C:\Users\alegr\AppData\Roaming\Zoom\bin\Zoom.exe
+[23320:27284:2022-10-6 9:7:1.810] "--url=zoommtg://win.launch?h.domain=zoom.us&h.path=join&stype=0&zc=0&action=join&confno=93794114086"
+[23320:27284:2022-10-6 9:7:2.214] [client_launch_app] Zoom app process created, result:42
+[23320:27284:2022-10-6 9:7:2.296] Main End
