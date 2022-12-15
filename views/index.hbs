@@ -55,15 +55,15 @@
                     visto en
                     dieciocho ocasiones a la Virgen María en una gruta del paraje de Massabielle, al occidente de
                     Lourdes
-                    entre el 11 de febrero y el 16 de julio de 1858.<br><br><br> 
+                    entre el 11 de febrero y el 16 de julio de 1858.<br><br><br>
 
                     En la tercera aparición, la niña dijo haber hablado con la Señora la que le preguntó: </p>
-                    <p class="lead mb-5 italic negrita text-center">"¿Me haría
-                    usted el favor de venir aquí durante quince días?"</p> 
-                    <p class="lead mb-5"> Y ella le prometió que así lo haría. A su vez,
+                <p class="lead mb-5 italic negrita text-center">"¿Me haría
+                    usted el favor de venir aquí durante quince días?"</p>
+                <p class="lead mb-5"> Y ella le prometió que así lo haría. A su vez,
                     la
                     Señora le anunció que no le prometía hacerla feliz en este mundo, sino en el
-                    otro.<br><br></p>
+                    otro.<br><br><br> <br></p>
             </div>
 
             <div class="btnapar">
@@ -145,7 +145,7 @@
                         Rosario; cuando lo hubimos acabado, la Señora desapareció y nosotras nos retiramos para acudir
                         al
                         Oficio de Vísperas."</span>
-                    <br> <br>
+                    <br> <br><br> <br><br> <br><br> <br>
 
 
                 </p>
@@ -183,7 +183,7 @@
                     prometió y la
                     Virgen le respondió:<span class="italic negrita"> "Yo también te prometo hacerte dichosa, no
                         ciertamente en este mundo,
-                        sino en el otro."</span><br> <br>
+                        sino en el otro."</span><br> <br><br><br> <br>
                 </p>
             </div>
         </div>
@@ -210,13 +210,13 @@
                 <div style="text-align: center;">
                     <a class="btn btn-dark btn-xl" href="#services2">Las más importantes</a>
                 </div>
-
+                <br> <br><br> <br>
             </div>
         </div>
     </div>
 </section>
 
-<section class="content-section" id="services2">
+<section class="content-section cardcontain" id="services2">
     <div class="container px-4 px-lg-5">
         <div class="row gx-0">
             <div class="col-lg-6">
@@ -263,7 +263,8 @@
                 <a class="portfolio-item" href="#!">
                     <div class="caption">
                         <div class="caption-content">
-                            <div class="h2">25 de marzo <span class="italic negrita">"Yo soy la Inmaculada Concepción"</span></div>
+                            <div class="h2">25 de marzo <span class="italic negrita">"Yo soy la Inmaculada
+                                    Concepción"</span></div>
                             <p class="mb-0">Después de 15 días le pregunté otra vez (quién era ella)... No hacía más que
                                 sonreirme. Al final separó sus manos juntas, ... y me dijo que ella era la Inmaculada
                                 Concepción.</p>
@@ -279,7 +280,7 @@
 
 
 <!-- APAR 5-->
-<section class="content-section bg-light ver5" id="apar5">
+<section class="content-section bg-light ver5 align-image: top" id="apar5">
     <div class="container px-4 px-lg-5 text-left">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-20">
@@ -300,11 +301,12 @@
                     A los que vienen a Massabielle, con alma de pobre, como Bernadette la pobre, la Buena Nueva de la
                     Salvación, sigue siendo anunciada. Esto es "la gracia de Lourdes". Y cuando han conocido esta
                     gracia, jamás pueden olvidarla: su pensamiento, su más íntima oración, incluso si están lejos de
-                    Lourdes, se reúnen irresistiblemente en la Gruta: "¡Allí es, escribirían de buena gana como Bernadette,
+                    Lourdes, se reúnen irresistiblemente en la Gruta: "¡Allí es, escribirían de buena gana como
+                    Bernadette,
                     donde me encontraréis en espíritu, como atada al pie de esta roca que tanto amo!... <span
                         class="negrita">La Gruta era mi
                         cielo!"</span>
-                    <br> <br> <br> <br>
+                    <br> <br> <br> <br><br> <br>
                 </p>
             </div>
         </div>
@@ -333,74 +335,105 @@
                     <div class="item"></div>
                     <div class="item"></div>
                 </main>
-              
+
 
             </body>
-            
+
 
 
         </div>
     </div>
-    <div class="container px-4 px-lg-5 text-center">
-              <h2 class="mb-4">¿Querés saber más...?</h2>
-              <a class="btn btn-xl btn-light me-4" href="https://www.lourdes-france.org/">Sitio oficial de Lourdes-Francia</a>
-            </div>
 </section>
 
-{{!-- <section class="content-section bg-primary text-white">
+<!-- Inicio sección Novedades-->
+    <div id="novedades" class="row my-4">
+        <div class="col-md-5 offset-md-2 py-3">
+            <h2>Actividades en el Santuario</h2>
+            <ul class="lista-novedades">
+                {{#each novedades}}
+                <li>
+                    <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal{{ id }}"><img
+                            src="images/lourdesgente.jpg">{{titulo}}></a>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+        <!--cierra noveddades-->
+        {{#each novedades}}
+        <!-- Inicia Modal-->
+        <div class="modal fade" id="modal{{id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="exampleModalLabel">{{titulo}}</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>Subtítulo</h3>
+                        <p>Cuerpo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Modal-->
+        {{/each}}
+      
+
     <div class="container px-4 px-lg-5 text-center">
         <h2 class="mb-4">¿Querés saber más...?</h2>
-        <a class="btn btn-xl btn-light me-4" href="https://www.lourdes-france.org/">Sitio oficial de Lourdes-Francia</a>
-
+        <a class="btn btn-primary btn-xl btnapar" href="https://www.lourdes-france.org/">Sitio oficial de Lourdes-Francia</a>
     </div>
-</section> --}}
 
 
-<!-- Inicio de mapa + formulario -->
-<div id="contact" class="row py-4 scroll_section">
-    <div class="col-md-4 offset-md-2">
-        <h2>Visitanos</h2>
-        <div class="mapa py-2">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.337443962659!2d-0.06048078515718243!3d43.09742289620953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd57d69e4e7e1967%3A0xa40981de7e97a5c5!2sSanctuaires%20Notre-Dame%20de%20Lourdes!5e0!3m2!1sen!2sar!4v1669245591471!5m2!1sen!2sar"></iframe>
-        </div>
-    </div> <!-- cierra el div con id=visitanos -->
-
-    <div class="col-md-4 mt-4 mt-sm-0">
-        <h2>Contactanos</h2>
-        <form class="row g-2">
-            <div class="col-md-6">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" name="nombre">
-            </div>
-            <div class="col-md-6">
-                <label for="apellido" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="apellido" name="apellido">
-            </div>
-            <div class="col-12">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="email@email.com" name="email">
-            </div>
-            <div class="col-12">
-                <label for="tel" class="form-label">Tel</label>
-                <input type="text" class="form-control" id="tel" placeholder="..." name="tel">
-            </div>
-            <div class="col-12">
-                <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="3" name="mensaje"></textarea>
-            </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-            {{ message }}
-        </form>
-    </div> <!-- cierra el div con id=conocenos -->
-</div> <!-- Fin de mapa + formulario -->
 
 
-<footer>
-    <p class="text-center">Diseñado por: María Josefina Villafañe 2022</p>
-</footer>
+
+
+    <!-- Inicio de mapa + formulario -->
+    <div id="contact" class="row py-4 scroll_section">
+        <div class="col-md-4 offset-md-2">
+            <h2>Visitanos</h2>
+            <div class="mapa py-2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.337443962659!2d-0.06048078515718243!3d43.09742289620953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd57d69e4e7e1967%3A0xa40981de7e97a5c5!2sSanctuaires%20Notre-Dame%20de%20Lourdes!5e0!3m2!1sen!2sar!4v1669245591471!5m2!1sen!2sar"></iframe>
+            </div>
+        </div> <!-- cierra el div con id=visitanos -->
+
+        <div class="col-md-4 mt-4 mt-sm-0">
+            <h2>Contactanos</h2>
+            <form class="row g-2">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido">
+                </div>
+                <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@email.com" name="email">
+                </div>
+                <div class="col-12">
+                    <label for="tel" class="form-label">Tel</label>
+                    <input type="text" class="form-control" id="tel" placeholder="..." name="tel">
+                </div>
+                <div class="col-12">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" name="mensaje"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                {{ message }}
+            </form>
+        </div> <!-- cierra el div con id=conocenos -->
+    </div> <!-- Fin de mapa + formulario -->
+
+
+    <footer>
+        <p class="text-center">Diseñado por: María Josefina Villafañe 2022</p>
+    </footer>
 </div>
 <!-- Scroll to Top Button-->
 <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>

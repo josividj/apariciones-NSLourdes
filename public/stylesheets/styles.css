@@ -117,7 +117,7 @@ h1,
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 
 .htext {
@@ -535,7 +535,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.20rem;
   font-weight: 300;
 }
 
@@ -12251,7 +12251,7 @@ html {
 }
 
 .content-section {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -12829,6 +12829,23 @@ html {
 
 }
 
+#loginheader2 {
+  margin: auto;
+  margin-top: 0;
+  min-height: 37rem;
+  /* position: relative;
+  display: table; */
+  width: 100%;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/lourdes.jpg") no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 
 .card2 {
   width: 210px;
@@ -12902,3 +12919,66 @@ html {
   margin: 0;
   padding: 0;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+.lista-novedades {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.lista-novedades li {
+  margin: 4px 0;
+}
+
+.lista-novedades li a {
+  background-color: #fff;
+  font-family: 'Alfa Slab One', cursive;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  transition: all .2s ease-in-out;
+  display: block;
+}
+
+.lista-novedades li a:hover {
+  color: #212529;
+  background-color: #dadada;
+}
+
+.lista-novedades li a img {
+  width: 120px;
+  height: 50px;
+  filter: grayscale();
+  transition: all .2s ease-in-out;
+  margin-right: 1 rem;
+  opacity: 0.7;
+}
+
+.lista-novedades li a:hover img {
+  filter: none;
+  margin-right: 1.4rem;
+  opacity: 1;
+}
+
+
+ 
+ 
+ 
+ 
+ 
