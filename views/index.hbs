@@ -346,42 +346,44 @@
 </section>
 
 <!-- Inicio sección Novedades-->
-    <div id="novedades" class="row my-4">
-        <div class="col-md-5 offset-md-2 py-3">
-            <h2>Actividades en el Santuario</h2>
-            <ul class="lista-novedades">
-                {{#each novedades}}
-                <li>
-                    <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal{{ id }}"><img
-                            src="images/lourdesgente.jpg">{{titulo}}></a>
-                </li>
-                {{/each}}
-            </ul>
-        </div>
-        <!--cierra noveddades-->
-        {{#each novedades}}
-        <!-- Inicia Modal-->
-        <div class="modal fade" id="modal{{id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title" id="exampleModalLabel">{{titulo}}</h2>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h3>Subtítulo</h3>
-                        <p>Cuerpo</p>
-                    </div>
+<div id="novedades" class="row my-4">
+    <div class="col-md-5 offset-md-2 py-3">
+        <h2>Actividades en el Santuario</h2>
+        <ul class="lista-novedades">
+            {{#each novedades}}
+            <li>
+                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal{{id}}"><img
+                        src="{{imagen}}">{{titulo}}></a>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    <!--cierra noveddades-->
+    {{#each novedades}}
+    <!-- Inicia Modal-->
+    <div class="modal fade" id="modal{{id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">{{titulo}}</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Subtítulo</h3>
+                    <img src="{{imagen}}" alt="">
+                    <p>Cuerpo</p>
                 </div>
             </div>
         </div>
-        <!-- Fin Modal-->
-        {{/each}}
-      
+    </div>
+    <!-- Fin Modal-->
+    {{/each}}
+
 
     <div class="container px-4 px-lg-5 text-center">
         <h2 class="mb-4">¿Querés saber más...?</h2>
-        <a class="btn btn-primary btn-xl btnapar" href="https://www.lourdes-france.org/">Sitio oficial de Lourdes-Francia</a>
+        <a class="btn btn-primary btn-xl btnapar" href="https://www.lourdes-france.org/">Sitio oficial de
+            Lourdes-Francia</a>
     </div>
 
 

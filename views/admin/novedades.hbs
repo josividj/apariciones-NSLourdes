@@ -1,4 +1,4 @@
-<div class="container htext align-items:top;">
+<div class=" htext align-items:top;">
     {{!-- fila 1 --}}
     <div class="row" style="text-align: right;">
         <div class="col-md-7 offset-md-5">
@@ -26,6 +26,7 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Título</th>
+                        <th scope="col">Imagen</th>
                         <th scope="col" class="text-end">Acciones</th>
                     </tr>
                 </thead>
@@ -34,9 +35,12 @@
                     <tr>
                         <th scope="row">{{id}}</th>
                         <td>{{titulo}}</td>
+                        <td>{{{imagen}}}</td>
                         <td class="text-end">
-                            <a href="/admin/novedades/modificar/{{id}}" class="btn btn-secondary"><i class="fas fa-pencil-alt"></i></a>
-                            <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-secondary"><i class="fas fa-trash"></i></a>
+                            <a href="/admin/novedades/modificar/{{id}}" class="btn btn-secondary"><i
+                                    class="fas fa-pencil-alt"></i></a>
+                            <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-secondary"><i
+                                    class="fas fa-trash"></i></a>
                         </td>
                     </tr>
                     {{/each}}
